@@ -24,4 +24,4 @@ Pour développer des applications en Java, plusieurs éléments sont nécessaire
 ## Récapitulatif du processus 
 
 - Avoir tous les outils de programmation fonctionnels en local
-- Savoir utiliser VSCode pour créer un fichier d'exercice et pour commit/push son exercice sur Github
+- Savoir utiliser VSCode pour créer un fichier d'exercice et pour commit/push son exercice sur Github 
