@@ -4,7 +4,7 @@ public class ExerciceSwitch1 {
     public static void main(String[] args) {
 
         
-          int noteDuModule = 7;
+          int noteDuModule = 3;
           
 
           
