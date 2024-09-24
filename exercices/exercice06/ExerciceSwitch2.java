@@ -5,6 +5,9 @@ public class ExerciceSwitch2 {
 
         int age = 12;
 
+        int age = 12;
+
+        if (age == 7) {
         if (age == 7) {
             System.out.println("Poussin");
         }
