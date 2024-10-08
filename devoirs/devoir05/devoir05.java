@@ -38,7 +38,7 @@ public class devoir05 {
  }
 
  // Fermer le scanner pour éviter les fuites de mémoire.
- scanner.close(); 
+ scanner.close();
 
 
 
