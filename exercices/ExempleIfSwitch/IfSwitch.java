@@ -1,7 +1,7 @@
 public class IfSwitch {
     public static void main(String[] args) {
 
-        int note = 6;
+        int note = 4;
 
         System.out.println("Ma note est : " + note);
 
@@ -16,6 +16,16 @@ public class IfSwitch {
         else {
             System.out.println("ma note est suffisante.");
         }
+
+
+
+
+
+
+
+
+
+
 
         switch (note) {
             case 1:
@@ -33,7 +43,7 @@ public class IfSwitch {
             case 4:
                 System.out.println("juste juste !");
 
-                break;
+                
             case 5:
                 System.out.println("bien !");
 
@@ -46,5 +56,37 @@ public class IfSwitch {
             default:
                 break;
         }
+    
+
+        for (int i = 0; i < 5; i++) {
+            if (i == 3) {
+                break; // Arrêter la boucle quand i est égal à 3
+            }
+            System.out.println("i = " + i);
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 }
