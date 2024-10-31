@@ -29,6 +29,4 @@ public class devoir02 {
         }
 
         // Affichage de la fin du remplissage
-        System.out.println("Remplissage terminé!");
-    }
-}
+        System.out.println("Remplissage terminé!");}}
