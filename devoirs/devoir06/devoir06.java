@@ -37,6 +37,7 @@ public class devoir06 {
     }
 
     public static int rechercheValeur(int[] tableau, int valeur) {
+        //RIF: attention à la convention EMF: un seul return par méthode
         for (int i = 0; i < tableau.length; i++) {
             if (tableau[i] == valeur) {
                 return i;
