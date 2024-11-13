@@ -1,6 +1,7 @@
 import java.util.Scanner;
 import java.util.Random;
 
+//RIF: très bien!
 public class devoir05 {
     public static void main(String[] args) {
  // Générer un nombre aléatoire entre 1 et 100
