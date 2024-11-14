@@ -21,16 +21,6 @@ public class Methodes1 {
     
     }
 
-    public static void main(String[] args) {
-        direBonjour();
-        dire("salut tout le monde");
-        dire("hello james");
-        Math();
-
-    }
-
-
-
 
 
 
