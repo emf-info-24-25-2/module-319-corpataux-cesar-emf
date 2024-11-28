@@ -81,20 +81,36 @@ public class SalleSpectacle {
 
     public static void main(String[] args) {
 
-        
+        boolean[] occupationSalle = new boolean[CATEGORIE_SALLE.length];
+        int commande = -1;
+        Scanner scanner = new Scanner(System.in);
 
+        while (commande != 0) {
+            System.out.println("--------------------------------------------------");
+            System.out.println(
+                    "1 = Commander un billet, 2 = Afficher les tarifs, 3 = Afficher l'état de la salle, 0 = Quitter");
+            System.out.print("Quelle opération voulez-vous faire : ");
+            commande = scanner.nextInt();
 
-
-
-
-
-
-
-
-
-
-
-
+            switch (commande) {
+                case 0:
+                    System.out.println("Au revoir");
+                    break;
+                case 1:
+                    occupationSalle = commanderBillet(occupationSalle);
+                    break;
+                case 2:
+                    afficherTarifs();
+                    break;
+                case 3:
+                    afficherSalle(occupationSalle);
+                    break;
+                default:
+                    System.out.println("Commande inconnue");
+                    break;
+            }
+        }
+        scanner.close();
 
     }
 }
