@@ -15,7 +15,7 @@ public class devoir07 {
         return tableau;
     }
 
-    public static int positionValeur(int[] tableau, int valeur) {
+    public static int[] positionValeur(int[] tableau, int valeur) {
         for (int i = 0; i < tableau.length; i++) {
             if (tableau[i] == valeur) {
                 return i;
